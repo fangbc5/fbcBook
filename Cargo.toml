@@ -1,0 +1,13 @@
+[package]
+name = "fbcBook"
+version = "0.0.1"
+edition = "2021"
+authors = ["fangbc5 <fangbc5@gmail.com>"]
+description = "A MdBook CLI tool in Rust"
+repository = "https://github.com/fangbc5/fbcBook"
+license = "MIT"
+keywords = ["cli", "tool", "book"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "4.1", features = ["derive"] }
